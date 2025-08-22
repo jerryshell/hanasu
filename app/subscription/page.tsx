@@ -1,0 +1,11 @@
+import { PricingTable } from "@clerk/nextjs";
+
+const Page = () => {
+  return (
+    <main className="bg-background mx-auto mb-5 flex h-full max-w-[1400px] flex-col gap-8 px-14 pt-10 max-sm:px-2">
+      <PricingTable />
+    </main>
+  );
+};
+
+export default Page;
