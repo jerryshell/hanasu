@@ -45,7 +45,7 @@ export const configureAssistant = (voice: string, style: string) => {
 
   const vapiAssistant: CreateAssistantDTO = {
     name: "Companion",
-    firstMessage: "你好，本次学习开始。今天我们将讨论：{{topic}}。",
+    firstMessage: "你好，本次学习开始。今天我们将讨论：{{topic}}。我想先确认你对这个主题有什么了解吗？",
     transcriber: {
       provider: "azure",
       language: "zh-CN",
